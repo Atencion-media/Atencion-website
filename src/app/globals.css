@@ -31,6 +31,7 @@
 }
 html{
   scroll-behavior: smooth;
+  font-family: var(--font-satoshi);
 }
 a {
   text-decoration: none !important;
@@ -38,6 +39,7 @@ a {
 
 body {
   color: rgb(var(--primary-bg));
+  font-family: var(--font-satoshi);
   background-color: rgb(var(--primary-bg));
 }
 
