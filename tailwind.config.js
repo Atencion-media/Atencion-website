@@ -25,14 +25,23 @@ module.exports = {
       backgroundColor:{
         "primary":"var(--primary-bg)",
         "secondary":"var(--secondary)",
-        "beige-bg":"var(--beige-bg)",
-        "black2":"var(--black2"
+        "beigepl":"var(--beigepl)",
+        "black2":"var(--black2)",
       },
       fontFamily:{
         "satoshi":["var(--font-satoshi)"]
-      }
+      },
+      animation:{
+        roll: "roll 24s linear infinite"
+      },
+      keyframes:{
+        roll:{
+          "0%": {transform: "translateX(100%)"},
+          "100%": {transform: "translateX(-100%)"}
+        }
+      },
     },
   },
-  plugins: [addVariablesForColors],
+  plugins: [],
 };
 
