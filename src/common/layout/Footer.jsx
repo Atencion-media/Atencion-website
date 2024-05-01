@@ -19,8 +19,8 @@ const Footer = () => {
               src={image_foot}
               alt="logo"
               className="w-full h-auto "
-              height={100}
-              width={100}
+              height={250}
+              width={250}
               style={{ width: "10rem", height: "6rem", objectFit: "contain" }}
               priority
             />
