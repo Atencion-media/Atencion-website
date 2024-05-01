@@ -13,7 +13,6 @@ export default function RootLayout({ children }) {
       <body className={`${satoshi.variable} ${inter.className} bg-primary`}>
         <header className="sticky top-4 left-0 z-50 w-4/5 mx-auto p-2 flex items-center justify-between rounded-full  bg-white bg-opacity-20 backdrop-blur-lg">
           <Navbar />
-        </header>
         {children}
 
         <div className="fixed bottom-0 left-0 z-60 w-full p-4 bg-black2">
