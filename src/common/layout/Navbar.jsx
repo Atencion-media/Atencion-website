@@ -1,10 +1,10 @@
-"use client"
+"use client";
 import { navlinks } from "@/constants/data/navlinks";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import logo from "../../../public/logo2.png";
-import { MdMenu,MdOutlineRestaurantMenu } from "react-icons/md";
+import { MdMenu, MdOutlineRestaurantMenu } from "react-icons/md";
 
 const Navbar = () => {
   return (
@@ -22,27 +22,17 @@ const Navbar = () => {
           />
         </div>
       </Link>
-      <ul
-        className="flex justify-between items-center"
-        style={{ gap: "1.2rem" }}
-      >
+      <ul className="flex justify-between items-center gap-5">
         {navlinks?.map((item) => {
           return (
-            <li
-              key={item?.id}
-              className=" font-satoshi"
-              style={{ color: "var(--white)" }}
-            >
+            <li key={item?.id} className=" font-satoshi text-white">
               <Link href={item?.path}>{item?.label}</Link>
             </li>
           );
         })}
       </ul>
 
-      <button
-        className=" rounded-full"
-        style={{ background: "var(--white)", padding: "8px 20px" }}
-      >
+      <button className=" rounded-full font-bold py-2 px-6 bg-white">
         Schedule a call
       </button>
     </nav>

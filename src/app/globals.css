@@ -13,18 +13,6 @@
   --white:#FFF;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-    --primary-bg: #091628;
-    --secondary : #C19B5B;
-    --beige-bg : #F5EEC5;
-    --black2 : #000C1E;
-    --white:#FFF;
-  }
-}
 
 *{
   margin: 0%;
@@ -40,10 +28,4 @@ a {
 
 body {
   font-family: var(--font-satoshi) !important;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
 }

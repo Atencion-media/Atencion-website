@@ -10,13 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${satoshi.variable} ${inter.className} bg-primary`}>
-        <header
-          className="sticky top-2 left-0 z-50 w-4/5 mx-auto p-4 flex items-center justify-between rounded-full"
-          // style={{
-          //   background: "rgba( 255, 255, 255, 0.2 )",
-          //   backdropFilter: "blur( 8.5px )",
-          // }}
-        >
+      <header className="sticky top-4 left-0 z-50 w-4/5 mx-auto p-2 flex items-center justify-between rounded-full  bg-white bg-opacity-20 backdrop-blur-lg">
           <Navbar />
         </header>
         {children}

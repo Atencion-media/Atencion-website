@@ -1,3 +1,4 @@
+import Navbar from "@/common/layout/Navbar";
 
 
 export default function Home() {
