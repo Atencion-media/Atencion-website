@@ -29,7 +29,7 @@ const Footer = () => {
             Schedule a call
           </button>
 
-          <div class="flex justify-between">
+          <div className="flex justify-between">
             <Link href="/">
               <FaLinkedin size={40} />
             </Link>
@@ -43,7 +43,7 @@ const Footer = () => {
         </div>
 
         {/*------------------ right-side-grid ------------------------------------*/}
-        <div class="grid gap-x-12 gap-y-4 grid-cols-3">
+        <div className="grid gap-x-12 gap-y-4 grid-cols-3">
           {footerlinks?.map((item) => {
             return (
               <li
