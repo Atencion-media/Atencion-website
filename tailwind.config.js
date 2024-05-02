@@ -29,6 +29,12 @@ module.exports = {
         "beigepl":"var(--beigepl)",
         "black2":"var(--black2)",
       },
+      colors:{
+        "primary":"var(--primary-bg)",
+        "secondary":"var(--secondary)",
+        "beigepl":"var(--beigepl)",
+        "black2":"var(--black2)",
+      },
       fontFamily:{
         "satoshi":["var(--font-satoshi)"]
       },
@@ -43,6 +49,6 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [addVariablesForColors],
 };
 
