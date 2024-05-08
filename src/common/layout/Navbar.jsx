@@ -12,7 +12,6 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
   const [active, setActive] = useState(pathname);
-  console.log("yash", active);
   useEffect(() => {
     if (isOpen) setIsOpen(false);
     setActive(pathname); // Update active link when pathname changes
