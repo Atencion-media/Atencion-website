@@ -67,7 +67,7 @@ const Hero = () => {
         onClick={() =>
           myScroll(
             0,
-            document.getElementById("videoPlayer").offsetTop + 150,
+            document.getElementById("videoPlayer").offsetTop ,
             "smooth"
           )
         }
