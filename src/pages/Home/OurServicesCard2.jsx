@@ -4,7 +4,7 @@ import { RiGraduationCapFill } from "react-icons/ri";
 
 const OurServicesCard2 = () => {
   return (
-    <div className="w-full min-h-[450px] min-w-80 p-2 py-8 border-4 border-gray-200 rounded-3xl flex flex-col justify-between items-center">
+    <div className="w-full  min-h-[22rem] p-2 py-8 border-4 border-gray-200 rounded-3xl flex flex-col justify-between items-center">
       <div className="text-center">
         <RiGraduationCapFill size={50} className="mx-auto text-secondary" />
         <div className="text-white text-2xl font-bold text-center tracking-wid">

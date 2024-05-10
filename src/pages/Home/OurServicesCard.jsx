@@ -4,7 +4,7 @@ import { FaRegCircleCheck } from "react-icons/fa6";
 
 const OurServicesCard = () => {
   return (
-    <div className="w-full min-h-[450px] min-w-80 p-2 py-8 border-4 border-gray-200 rounded-3xl flex flex-col justify-between items-center">
+    <div className="w-full p-2 py-8 border-4 min-h-[22rem] border-gray-200 rounded-3xl flex flex-col justify-between items-center">
       <div className="text-center">
         <FaUsers size={50} className="mx-auto text-secondary" />
         <div className="text-white text-2xl font-bold text-center tracking-wid">

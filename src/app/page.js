@@ -5,6 +5,7 @@ import Slider1 from "@/pages/Home/Testimonials";
 import OurServices from "@/pages/Home/OurServices";
 import UnleaseCard from "@/pages/Home/UnleaseCard";
 import VideoPlayer from "@/pages/Home/VideoPlayer";
+import WhyUs from "@/pages/Home/WhyUs";
 
 export default function Home() {
   return (
@@ -13,7 +14,8 @@ export default function Home() {
       <VideoPlayer/>
       <UnleaseCard />
       <CaseStudies />
-      <Slider1/>  
+      <WhyUs/>
+      {/* <Slider1/>   */}
       <OurServices />
     </main>
   );
