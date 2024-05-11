@@ -1,7 +1,30 @@
-import React from 'react'
+"use client"
+import React, { useState } from 'react'
 import Image from "next/image";
 import { IMG_URL } from '@/constants/data/imageConstants';
+import { FaLongArrowAltRight } from "react-icons/fa";
+import { FaLongArrowAltLeft } from "react-icons/fa";
+import { clientData } from '@/constants/data/caseStudyData';
 const CaseStudyPage = () => {
+    const [index,setIndex]=useState(0);
+    const handleSrollToTop=()=>{
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth' 
+          });
+    }
+    const handleNext=()=>{
+        if(index<clientData.length-1){
+            setIndex(index+1);
+        }
+        handleSrollToTop();
+    }
+    const handlePrevious=()=>{
+        if(index>0){
+            setIndex(index-1);
+        }
+        handleSrollToTop();
+    }
   return (
     <div className='mt-20 md:mt-12 text-white'>
         <div className='flex flex-col items-center'>
@@ -10,22 +33,25 @@ const CaseStudyPage = () => {
         height={150}
         width={150}
         src={IMG_URL} alt="client-logo"/>
-        <h1 className='pt-4 text-3xl font-bold'>Smita Holidays</h1>
+        <h1 className='pt-4 text-3xl font-bold'>{clientData[index]?.client_name}</h1>
         </div>
         
-    <div className='pt-14 mx-40'>
-        <div className='mt-10'>
+    <div className='pt-14 p-10 w-full md:w-[80%] md:mx-auto'>
+        
+        <div className='mt-10 '>
             <h1 className='font-bold text-2xl my-3'>The Problem</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electroni</p>
+            <p>{clientData[index]?.problem_statement}</p>
         </div>
         <div className='mt-10'>
             <h1 className='font-bold text-2xl my-3'>The Solution</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electroni</p>
+            <p>{clientData[index]?.solution}</p>
         </div>
          <div className='mt-10'>
             <h1 className='font-bold text-2xl my-3'>KPI</h1>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electroni</p> 
+            <p>{clientData[index]?.KPI}</p> 
         </div>
+
+        
         <div className='flex mt-10 items-center mx-auto justify-between  flex-col md:flex-row '>
             <Image src={IMG_URL} 
             height={150}
@@ -41,9 +67,11 @@ const CaseStudyPage = () => {
             />
         </div>
     </div>
-        <div className='flex justify-between pt-10 font-bold text-xl mx-24 md:mx-40'>
-            <button>Previous</button>
-            <button>Next</button>
+        <div className='flex justify-between pt-10 font-bold text-xl mx-24 gap-5 md:mx-40'>
+        
+        <button className='flex gap-2' onClick={handlePrevious} ><FaLongArrowAltLeft/>Previous</button>
+        <button className='flex gap-2' onClick={handleNext}>Next <FaLongArrowAltRight /></button>
+        
         </div>
     
         <div className='flex border border-yellow-600 rounded-3xl mt-14 pt-4 flex-col md:flex-row gap-2 md:gap-10 m-8 justify-between'>
@@ -63,8 +91,6 @@ const CaseStudyPage = () => {
                 </button>
             </div>
         </div>
-
-
     </div>
   )
 }
