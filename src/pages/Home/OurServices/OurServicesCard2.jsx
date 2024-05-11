@@ -1,14 +1,14 @@
 import React from "react";
-import { FaUsers } from "react-icons/fa";
 import { FaRegCircleCheck } from "react-icons/fa6";
+import { RiGraduationCapFill } from "react-icons/ri";
 
-const OurServicesCard = () => {
+const OurServicesCard2 = () => {
   return (
-    <div className="w-full min-h-[450px] min-w-80 p-2 py-8 border-4 border-gray-200 rounded-3xl flex flex-col justify-between items-center">
+    <div className="w-full  min-h-[22rem] p-2 py-8 border-4 border-gray-200 rounded-3xl flex flex-col justify-between items-center">
       <div className="text-center">
-        <FaUsers size={50} className="mx-auto text-secondary" />
+        <RiGraduationCapFill size={50} className="mx-auto text-secondary" />
         <div className="text-white text-2xl font-bold text-center tracking-wid">
-          For Clients
+          For Colleges
         </div>
         <div className="text-white text-sm max-w-sm mt-2">
           *some short descrption*
@@ -19,11 +19,19 @@ const OurServicesCard = () => {
         <ul className="text-base list-none font-medium">
           <li className="flex justify-start items-center gap-3">
             <FaRegCircleCheck className="text-secondary" />{" "}
-            <span>Colleges Sponsorships</span>
+            <span>Social Media Atencion</span>
           </li>
           <li className="flex justify-start items-center gap-3">
             <FaRegCircleCheck className="text-secondary" />{" "}
-            <span>Brand collabrations </span>
+            <span>Campus Atencion</span>
+          </li>
+          <li className="flex justify-start items-center gap-3">
+            <FaRegCircleCheck className="text-secondary" />{" "}
+            <span>Email Atencion</span>
+          </li>
+          <li className="flex justify-start items-center gap-3">
+            <FaRegCircleCheck className="text-secondary" />{" "}
+            <span>Event Atencion</span>
           </li>
         </ul>
       </div>
@@ -35,4 +43,4 @@ const OurServicesCard = () => {
   );
 };
 
-export default OurServicesCard;
+export default OurServicesCard2;

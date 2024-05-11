@@ -1,7 +1,7 @@
 "use client"
 import Image from "next/image";
 import React from "react";
-import logo from "../../../public/logo2.png";
+import logo from "../../../../public/logo2.png";
 import { motion } from "framer-motion";
 
 const UnleaseCard = () => {

@@ -38,7 +38,7 @@
   }
   
   .slide {
-    width: 150px;
+    width: 250px;
     height: 60px;
     display: grid;
     place-items: center;
@@ -60,11 +60,11 @@
   
   @media screen and (max-width: 768px) {
     .slide-track {
-      width: calc(80px * 20);
+      width: calc(150px * 20);
     }
   
     .slide {
-      width: 80px;
+      width: 150px;
     }
   
     @keyframes scroll {
