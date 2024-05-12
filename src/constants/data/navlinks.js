@@ -23,7 +23,7 @@ export const navlinks = [
     {
         id:4,
         label:"Case Studies",
-        path:"/case-studies",
+        path:"/case-study",
         icon:<FaBriefcase/>
     },
     {

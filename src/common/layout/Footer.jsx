@@ -31,13 +31,13 @@ const Footer = () => {
 
           <div className="flex justify-evenly w-full py-4 md:py-2">
             <Link href="/">
-              <FaLinkedin size={40} />
+              <FaLinkedin size={40}  className="hover:animate-bounce transition-all ease-in delay-300"/>
             </Link>
             <Link href="/">
-              <RiInstagramFill size={40} />
+              <RiInstagramFill size={40}  className="hover:animate-bounce transition-all ease-in delay-75"/>
             </Link>
             <Link href="/">
-              <FaTwitter size={40} />
+              <FaTwitter size={40}  className="hover:animate-bounce transition-all ease-in delay-75"/>
             </Link>
           </div>
         </div>
