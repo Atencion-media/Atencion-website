@@ -28,6 +28,7 @@ module.exports = {
         "secondary":"var(--secondary)",
         "beigepl":"var(--beigepl)",
         "black2":"var(--black2)",
+        'custom-gradient': 'radial-gradient(circle, rgba(53,59,98,1) 0%, rgba(0,12,30,1) 100%)',
       },
       colors:{
         "primary":"var(--primary-bg)",
