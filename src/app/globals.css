@@ -4,23 +4,22 @@
 
 :root {
   --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
   --primary-bg: #091628;
-  --secondary : #C19B5B;
-  --beigepl : #F5EEC5;
-  --black2 : #000C1E;
-  --white:#FFF;
+  --secondary: #c19b5b;
+  --beigepl: #f5eec5;
+  --black2: #000c1e;
+  --white: #fff;
 }
 
-
-*{
+* {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
 }
-html{
-  scroll-behavior: smooth;
+html {
+  /* scroll-behavior: smooth; */
 }
 a {
   text-decoration: none !important;

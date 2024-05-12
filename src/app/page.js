@@ -7,18 +7,17 @@ import Testimonials from "@/pages/Home/Testimonial/Testimonials";
 import VideoPlayer from "@/pages/Home/VideoPlayer";
 import WhyUs from "@/pages/Home/WhyUS/WhyUs";
 
-
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-between">
       <Hero />
-      <VideoPlayer/>
-      <UnleaseCard/>
-      <WhyUs/>
+      <VideoPlayer />
+      <UnleaseCard />
+      <WhyUs />
       <CaseStudies />
       <OurServices />
-      <Testimonials/>
-      <FAQs/>
+      <Testimonials />
+      <FAQs />
     </main>
   );
 }
