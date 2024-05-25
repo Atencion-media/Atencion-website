@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import tempimage from "../../../public/logo2.png";
-import { cardData } from "@/constants/data/ServiceCardData";
+import { cardData } from "@/constants/data/ServiceCardData_Colleges";
+import { cardData2 } from "@/constants/data/ServiceCardData_Clients";
 import ServiceCard from "./ServiceCard";
 // import { IMG_URL } from "@/constants/data/imageConstants";
 import wws from "../../../public/work.png";
@@ -17,23 +17,9 @@ const ServicePage = () => {
         For Colleges
       </h2>
 
-      <div className="border-t-4 mt-3 rounded-lg mx-[825px] border-[#C19B5B] ..."></div>
+      <div className="border-t-4 mt-3 rounded-lg mx-[900px] border-[#C19B5B] ..."></div>
 
       {/* ---------------------------------------------------------------------------------------------------------------- */}
-
-      <div className="flex flex-col items-center bg-black2 border rounded-3xl shadow mx-auto my-5 hover:bg-gray-100 hover:text-gray-700 hover:border-gray-200  md:flex-row md:max-w-6xl h-[250px] ">
-        <Image
-          src={tempimage}
-          alt="logo"
-          className="object-cover h-48 w-96 rounded-t-lg md:rounded-none md:rounded-s-lg"
-        />
-        <div className="p-4 leading-normal text-center">
-          <p className="font-normal text-white ">
-            Here are the biggest enterprise technology acquisitions of 2021 so
-            far, in reverse chronological order.
-          </p>
-        </div>
-      </div>
 
       {cardData?.map((data, index) => (
         <ServiceCard key={index} imageSrc={data.imageSrc} text={data.text} />
@@ -44,7 +30,12 @@ const ServicePage = () => {
         For Clients
       </h2>
 
-      <div className="border-t-4 mt-3 rounded-lg mx-[825px] border-[#C19B5B] ..."></div>
+      <div className="border-t-4 mt-3 rounded-lg mx-[900px] border-[#C19B5B] ..."></div>
+      {cardData2?.map((data, index) => (
+        <ServiceCard key={index} imageSrc={data.imageSrc} text={data.text} />
+      ))}
+
+      {/* ---------------------------------------------- Work With Us -------------------------------------------------- */}
 
       <div className="flex border border-[#C19B5B] rounded-3xl my-32 pt-4 flex-col md:flex-row gap-2 md:gap-10 mx-56 min-h-96 justify-between text-white">
         <div className="flex items-center justify-center w-full md:w-[50%]">
