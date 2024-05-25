@@ -17,7 +17,7 @@ const ServicePage = () => {
         For Colleges
       </h2>
 
-      <div className="border-t-4 mt-3 rounded-lg mx-[900px] border-[#C19B5B] ..."></div>
+      <div className="border-t-4 mt-3 rounded-lg mx-[180px] md:mx-[900px] border-[#C19B5B] ..."></div>
 
       {/* ---------------------------------------------------------------------------------------------------------------- */}
 
@@ -30,7 +30,7 @@ const ServicePage = () => {
         For Clients
       </h2>
 
-      <div className="border-t-4 mt-3 rounded-lg mx-[900px] border-[#C19B5B] ..."></div>
+      <div className="border-t-4 mt-3 rounded-lg mx-[180px] md:mx-[900px] border-[#C19B5B] ..."></div>
       {cardData2?.map((data, index) => (
         <ServiceCard key={index} imageSrc={data.imageSrc} text={data.text} />
       ))}

@@ -3,16 +3,19 @@ import Image from "next/image";
 
 const ServiceCard = ({ imageSrc, text }) => {
   return (
-    <div className="flex flex-col items-center bg-black2 rounded-3xl shadow mx-auto my-10 hover:bg-gray-100 hover:text-gray-700 hover:border-gray-200  md:flex-row md:max-w-6xl h-[300px] ">
+    <div
+      className="flex flex-col h-[350px] items-center bg-black2 border border-transparent rounded-3xl shadow mx-2 md:mx-auto transition-transform transform hover:shadow-2xl hover:border-[#C19B5B] hover:animate-subtleBounce
+      md:flex-row md:max-w-6xl md:h-[300px] my-10  "
+    >
       <Image
         src={imageSrc}
         alt="logo"
         width={400}
         height={400}
-        className="object-cover h-48 p-5 min-w-200 rounded-t-lg md:rounded-none md:rounded-s-lg"
+        className="object-cover h-23 p-1 rounded-t-lg md:rounded-none md:rounded-s-lg md:p-5 md:h-48"
       />
-      <div className="p-16 text-base/7 leading-normal text-left ">
-        <p className="font-normal text-white ">{text}</p>
+      <div className="p-7 md:p-16 text-base/7 leading-normal text-left ">
+        <p className="font-normal text-white">{text}</p>
       </div>
     </div>
   );
