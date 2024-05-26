@@ -12,6 +12,7 @@ export const navlinks = [
         id:2,
         label:"About",
         path:"/about",
+        section:"/#aboutus",
         icon:<GoOrganization/>
     },
     {
@@ -23,13 +24,14 @@ export const navlinks = [
     {
         id:4,
         label:"Case Studies",
-        path:"/case-studies",
+        path:"/case-study",
         icon:<FaBriefcase/>
     },
     {
         id:5,
         label:"Testimonials",
         path:"/testimonials",
+        section:"/#Testimonials",
         icon:<MdReviews/>
     },
 ]

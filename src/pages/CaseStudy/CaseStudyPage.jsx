@@ -5,6 +5,7 @@ import { IMG_URL } from '@/constants/data/imageConstants';
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { FaLongArrowAltLeft } from "react-icons/fa";
 import { clientData } from '@/constants/data/caseStudyData';
+import CTACard from '../Home/OurServices/CTACard';
 const CaseStudyPage = () => {
     const [index,setIndex]=useState(0);
     const handleSrollToTop=()=>{
@@ -74,23 +75,7 @@ const CaseStudyPage = () => {
         
         </div>
     
-        <div className='flex border border-yellow-600 rounded-3xl mt-14 pt-4 flex-col md:flex-row gap-2 md:gap-10 m-8 justify-between'>
-          <div className='flex items-center justify-center w-full md:w-[50%]'>
-          <Image src={IMG_URL} 
-            height={380}
-            width={380} 
-            className=' rounded-lg w-[80%]'
-            alt="sponsor-img"
-            />
-          </div>
-            <div className='m-auto p-12 md:mr-12 w-full md:w-[50%]'>
-                <h1 className='font-bold text-2xl '>Work With Us</h1>
-                <p>We are commited to working with you collaboratively to understand your goals and create a strategy that will achieve them.</p>
-                <button className=" rounded-full font-bold py-2 px-6 bg-yellow-500 text-white my-6">
-                    Schedule a call
-                </button>
-            </div>
-        </div>
+        <CTACard/>
     </div>
   )
 }
