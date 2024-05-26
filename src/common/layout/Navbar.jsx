@@ -5,17 +5,21 @@ import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import logo from "../../../public/logo2.png";
 import { MdMenu, MdOutlineRestaurantMenu } from "react-icons/md";
-import { usePathname } from "next/navigation";
+import { usePathname,useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import { menuSlide, slide } from "./animation";
+import { myScroll } from "@/utils/myScroll";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
   const [active, setActive] = useState(pathname);
+  const router = useRouter()
   useEffect(() => {
     if (isOpen) setIsOpen(false);
     setActive(pathname); // Update active link when pathname changes
   }, [pathname]);
+
+
   return (
     <>
       <header className="sticky top-4 left-0 z-50 w-[95%] md:w-full lg:w-4/5 mx-auto p-2 flex items-center justify-between rounded-full  bg-white bg-opacity-20 backdrop-blur-lg">
@@ -36,8 +40,23 @@ const Navbar = () => {
           <ul className=" hidden md:flex justify-between items-center gap-5  ">
             {navlinks?.map((item) => {
               return (
-                <li key={item?.id} className=" font-satoshi text-white">
-                  <Link href={item?.path}>{item?.label}</Link>
+                <li
+                  key={item?.id}
+                  className={`font-satoshi ${
+                    active === item?.path
+                      ? "text-secondary text-lg font-semibold"
+                      : "text-white"
+                  }`}
+                >
+                  {item?.path === "/about" || item?.path === "/testimonials" ? (
+                    <a
+                    href={item?.section}
+                  >
+                    {item?.label}
+                  </a>
+                  ) : (
+                    <Link href={item?.path}>{item?.label}</Link>
+                  )}
                 </li>
               );
             })}

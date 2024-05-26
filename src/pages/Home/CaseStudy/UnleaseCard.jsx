@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const UnleaseCard = () => {
   return (
-    <motion.div initial={{opacity:0, y:80}} animate={{opacity:1, y:0}} transition={{delay:3, duration:2}} className="w-full flex justify-center items-center p-4 md:p-12 mt-0  md:mt-2">
+    <motion.div id="aboutus" initial={{opacity:0, y:80}} animate={{opacity:1, y:0}} transition={{delay:3, duration:2}} className="w-full flex justify-center items-center p-4 md:p-12 mt-0  md:mt-2">
       <div className="w-full md:w-[95%] border-solid border-2 border-sky-500 flex flex-col-reverse md:flex-row justify-between items-center gap-4 p-4 md:p-8 rounded-3xl">
         {/* Content section */}
         <div className="w-full md:w-[55%]">
