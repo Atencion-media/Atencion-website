@@ -6,9 +6,9 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import Image from "next/image";
-import { WhyUsData } from "@/constants/data/WhyUsData";
+import { Testimonials } from "@/constants/data/Testimonials";
 import TestimonialCard from "./TestimonialCard";
-import "../../../styles/CustomSwiper.css"
+import "../../../styles/CustomSwiper.css";
 const CustomSwiper = ({
   slidesPerView = 1,
   spaceBetween = 30,
@@ -38,8 +38,8 @@ const CustomSwiper = ({
         modules={[Autoplay, Pagination, Navigation]}
         className={className}
       >
-        {WhyUsData?.length > 0 &&
-          WhyUsData?.map((item, ind) => (
+        {Testimonials?.length > 0 &&
+          Testimonials?.map((item, ind) => (
             <SwiperSlide key={ind}>
               <TestimonialCard data={item} />
             </SwiperSlide>

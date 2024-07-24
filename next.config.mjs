@@ -1,9 +1,44 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  reactStrictMode: true,
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 
-    images: {
-        domains: ['images.unsplash.com',"i.pinimg.com","p7.hiclipart.com","www.citypng.com"],
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "asset.cloudinary.com",
+        pathname: "**",
       },
+      {
+        protocol: "https",
+        hostname: "res.cloudinary.com",
+        pathname: "**",
+      },
+      {
+        protocol: "https",
+        hostname: "www.citypng.com",
+        pathname: "**",
+      },
+      {
+        protocol: "https",
+        hostname: "p7.hiclipart.com",
+        pathname: "**",
+      },
+      {
+        protocol: "https",
+        hostname: "i.pinimg.com",
+        pathname: "**",
+      },
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+        pathname: "**",
+      },
+    ],
+  },
 };
 
 export default nextConfig;

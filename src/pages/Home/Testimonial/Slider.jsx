@@ -9,7 +9,7 @@ function Slider1() {
         <div className="slide bg-transparent">
           <Image
             src={
-              "https://www.citypng.com/public/uploads/preview/hd-white-nike-logo-transparent-png-701751694777170hrodp6c2ek.png"
+              "https://res.cloudinary.com/dlr4rgxrt/image/upload/v1720553332/Picture1_fl93jv.jpg"
             }
             width={40}
             height={40}
@@ -20,7 +20,7 @@ function Slider1() {
         <div className="slide bg-transparent">
           <Image
             src={
-              "https://www.citypng.com/public/uploads/preview/hd-white-nike-logo-transparent-png-701751694777170hrodp6c2ek.png"
+              "https://res.cloudinary.com/dlr4rgxrt/image/upload/v1720553332/Picture2_nkhuch.jpg"
             }
             width={40}
             height={40}
@@ -31,7 +31,7 @@ function Slider1() {
         <div className="slide bg-transparent">
           <Image
             src={
-              "https://www.citypng.com/public/uploads/preview/hd-white-nike-logo-transparent-png-701751694777170hrodp6c2ek.png"
+              "https://res.cloudinary.com/dlr4rgxrt/image/upload/v1720553332/Picture3_chu2on.jpg"
             }
             width={40}
             height={40}
@@ -42,7 +42,7 @@ function Slider1() {
         <div className="slide bg-transparent">
           <Image
             src={
-              "https://www.citypng.com/public/uploads/preview/hd-white-nike-logo-transparent-png-701751694777170hrodp6c2ek.png"
+              "https://res.cloudinary.com/dlr4rgxrt/image/upload/v1720553332/Picture4_gnuslb.jpg"
             }
             width={40}
             height={40}
@@ -53,7 +53,7 @@ function Slider1() {
         <div className="slide bg-transparent">
           <Image
             src={
-              "https://www.citypng.com/public/uploads/preview/hd-white-nike-logo-transparent-png-701751694777170hrodp6c2ek.png"
+              "https://res.cloudinary.com/dlr4rgxrt/image/upload/v1720553332/Picture5_pmzs45.jpg"
             }
             width={40}
             height={40}
@@ -64,7 +64,7 @@ function Slider1() {
         <div className="slide bg-transparent">
           <Image
             src={
-              "https://www.citypng.com/public/uploads/preview/hd-white-nike-logo-transparent-png-701751694777170hrodp6c2ek.png"
+              "https://res.cloudinary.com/dlr4rgxrt/image/upload/v1720553331/Picture6_tkabp6.png"
             }
             width={40}
             height={40}
@@ -72,117 +72,6 @@ function Slider1() {
             className="object-contain drop-shadow-lg"
           />
         </div>{" "}
-        <div className="slide bg-transparent">
-          <Image
-            src={
-              "https://www.citypng.com/public/uploads/preview/hd-white-nike-logo-transparent-png-701751694777170hrodp6c2ek.png"
-            }
-            width={40}
-            height={40}
-            alt="ok"
-            className="object-contain drop-shadow-lg"
-          />
-        </div>{" "}
-        <div className="slide bg-transparent">
-          <Image
-            src={
-              "https://www.citypng.com/public/uploads/preview/hd-white-nike-logo-transparent-png-701751694777170hrodp6c2ek.png"
-            }
-            width={40}
-            height={40}
-            alt="ok"
-            className="object-contain drop-shadow-lg"
-          />
-        </div>
-        {/* same 9 slides doubled (duplicate) */}
-        <div className="slide bg-transparent">
-          <Image
-            src={
-              "https://www.citypng.com/public/uploads/preview/hd-white-nike-logo-transparent-png-701751694777170hrodp6c2ek.png"
-            }
-            width={40}
-            height={40}
-            alt="ok"
-            className="object-contain drop-shadow-lg "
-          />
-        </div>
-        <div className="slide bg-transparent">
-          <Image
-            src={
-              "https://www.citypng.com/public/uploads/preview/hd-white-nike-logo-transparent-png-701751694777170hrodp6c2ek.png"
-            }
-            width={40}
-            height={40}
-            alt="ok"
-            className="object-contain drop-shadow-lg"
-          />
-        </div>{" "}
-        <div className="slide bg-transparent">
-          <Image
-            src={
-              "https://www.citypng.com/public/uploads/preview/hd-white-nike-logo-transparent-png-701751694777170hrodp6c2ek.png"
-            }
-            width={40}
-            height={40}
-            alt="ok"
-            className="object-contain drop-shadow-lg"
-          />
-        </div>{" "}
-        <div className="slide bg-transparent">
-          <Image
-            src={
-              "https://www.citypng.com/public/uploads/preview/hd-white-nike-logo-transparent-png-701751694777170hrodp6c2ek.png"
-            }
-            width={40}
-            height={40}
-            alt="ok"
-            className="object-contain drop-shadow-lg"
-          />
-        </div>{" "}
-        <div className="slide bg-transparent">
-          <Image
-            src={
-              "https://www.citypng.com/public/uploads/preview/hd-white-nike-logo-transparent-png-701751694777170hrodp6c2ek.png"
-            }
-            width={40}
-            height={40}
-            alt="ok"
-            className="object-contain drop-shadow-lg"
-          />
-        </div>{" "}
-        <div className="slide bg-transparent">
-          <Image
-            src={
-              "https://www.citypng.com/public/uploads/preview/hd-white-nike-logo-transparent-png-701751694777170hrodp6c2ek.png"
-            }
-            width={40}
-            height={40}
-            alt="ok"
-            className="object-contain drop-shadow-lg"
-          />
-        </div>{" "}
-        <div className="slide bg-transparent">
-          <Image
-            src={
-              "https://www.citypng.com/public/uploads/preview/hd-white-nike-logo-transparent-png-701751694777170hrodp6c2ek.png"
-            }
-            width={40}
-            height={40}
-            alt="ok"
-            className="object-contain drop-shadow-lg"
-          />
-        </div>{" "}
-        <div className="slide bg-transparent">
-          <Image
-            src={
-              "https://www.citypng.com/public/uploads/preview/hd-white-nike-logo-transparent-png-701751694777170hrodp6c2ek.png"
-            }
-            width={40}
-            height={40}
-            alt="ok"
-            className="object-contain drop-shadow-lg"
-          />
-        </div>
       </div>
     </div>
     // </div>
