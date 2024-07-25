@@ -30,7 +30,7 @@ const WhyUsCard = ({ data, ind }) => {
           <Reveal>
             <Image
               width={400}
-              className="w-full object-contain rounded-2xl justify-self-start"
+              className="w-full object-contain rounded-2xl justify-self-start "
               height={400}
               src={data?.imageUrl}
               alt="img"

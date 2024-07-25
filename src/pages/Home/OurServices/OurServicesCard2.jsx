@@ -12,33 +12,24 @@ const OurServicesCard2 = () => {
           <div className="text-white text-2xl font-bold text-center tracking-wid">
             For Colleges
           </div>
-          <div className="text-white text-sm max-w-sm mt-2">
-            *some short descrption*
-          </div>
         </Reveal>
       </div>
 
       <div>
-        <Reveal>
-          <ul className="text-base list-none font-medium">
+        <ul className="text-base list-none font-medium">
+          <Reveal>
             <li className="flex justify-start items-center gap-3">
               <FaRegCircleCheck className="text-secondary" />{" "}
-              <span>Social Media Atencion</span>
+              <span>Colleges Sponsorships</span>
             </li>
+          </Reveal>
+          <Reveal>
             <li className="flex justify-start items-center gap-3">
               <FaRegCircleCheck className="text-secondary" />{" "}
-              <span>Campus Atencion</span>
+              <span>Brand collabrations </span>
             </li>
-            <li className="flex justify-start items-center gap-3">
-              <FaRegCircleCheck className="text-secondary" />{" "}
-              <span>Email Atencion</span>
-            </li>
-            <li className="flex justify-start items-center gap-3">
-              <FaRegCircleCheck className="text-secondary" />{" "}
-              <span>Event Atencion</span>
-            </li>
-          </ul>
-        </Reveal>
+          </Reveal>
+        </ul>
       </div>
 
       <button className="rounded-full font-bold py-2 px-16 bg-white text-black hover:bg-secondary">

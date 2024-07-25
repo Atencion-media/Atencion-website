@@ -4,7 +4,7 @@ export const Testimonials = [
     description:
       "We Smita Holidays were in search of a new age social media agency for our tourism business. We got connected with Atencion Media and now it's almost a year since they are taking care of all our social media handles. They made our work very easy and created hassle free managing content around the Social Platforms. The team is Very creative, energetic and trustworthy .We are delighted to associate with them.",
     imageUrl:
-      "https://res.cloudinary.com/dlr4rgxrt/image/upload/v1720555227/logo_uwqwmn.png",
+      "https://res.cloudinary.com/dlr4rgxrt/image/upload/v1721902335/Logo_SH_DIFI_1_iw1vc0.png",
   },
   {
     title: "Jayant Gore , Member at Ellora Ajanta International Festival",
@@ -18,7 +18,7 @@ export const Testimonials = [
     description:
       "Exceptional service! Our travel agency's social media content was too good, thanks to the outstanding work by Atencion Media. Their expertise and dedication truly exceeded our expectations. Highly recommended!",
     imageUrl:
-      "https://res.cloudinary.com/dlr4rgxrt/image/upload/v1720502452/03_why-us_ffyfod.svg",
+      "https://res.cloudinary.com/dlr4rgxrt/image/upload/v1721902463/Vista_Journeys_Logo_piovzj.png",
   },
   {
     title: "Vijay Gosavi , Marketing Head at SIEC",
@@ -32,6 +32,6 @@ export const Testimonials = [
     description:
       "At Atención Media, we're more than just project completers; we're relationship architects. We don't just build brands; we forge connections that stand the test of time. Think of us as bridge builders, constructing pathways between your brand and its audience, between dreams and reality. Because in our world, relationships matter more than anything else.",
     imageUrl:
-      "https://res.cloudinary.com/dlr4rgxrt/image/upload/v1720502453/05_why-us_msisan.svg",
+      "https://res.cloudinary.com/dlr4rgxrt/image/upload/v1721900669/new-logo_nsbvwi.png",
   },
 ];

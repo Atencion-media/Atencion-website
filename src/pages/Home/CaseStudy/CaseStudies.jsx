@@ -11,7 +11,7 @@ const CaseStudies = () => {
       </h4>
       <div className="grid grid-cols-1 lg:grid-cols-3 mx-auto ">
         <CaseStudyCard
-          image="https://res.cloudinary.com/dlr4rgxrt/image/upload/v1720555227/logo_uwqwmn.png"
+          image="https://res.cloudinary.com/dlr4rgxrt/image/upload/v1721902335/Logo_SH_DIFI_1_iw1vc0.png"
           text={{
             category: "Social Atencion",
             title: "Make things float in air",
@@ -28,7 +28,7 @@ const CaseStudies = () => {
           }}
         />
         <CaseStudyCard
-          image="https://res.cloudinary.com/dlr4rgxrt/image/upload/v1720555228/logo-siec_tunleu.png"
+          image="https://res.cloudinary.com/dlr4rgxrt/image/upload/v1721900669/new-logo_nsbvwi.png"
           text={{
             category: "Campus Atencion",
             title: "AECC Study Abroad - Captivating Pune's College Scene",
