@@ -1,7 +1,7 @@
 import React from "react";
-import "../../../styles/slider.css";
+import "../../../styles/sliderrev.css";
 import Image from "next/image";
-function Slider1() {
+function Slider2() {
   return (
     // <div className="w-full sm:px-12 py-8">
     <div className="slider mb-4">
@@ -144,4 +144,4 @@ function Slider1() {
   );
 }
 
-export default Slider1;
+export default Slider2;

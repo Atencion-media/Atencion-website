@@ -1,10 +1,9 @@
-
 import CaseStudyPage from '@/pages/CaseStudy/CaseStudyPage'
 import React from 'react'
 
-const page = () => {
+const page = ({params}) => {
   return (
-    <CaseStudyPage/>
+    <CaseStudyPage ind={params?.name}/>
   )
 }
 

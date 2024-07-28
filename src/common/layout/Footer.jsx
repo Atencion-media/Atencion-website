@@ -13,8 +13,11 @@ const Footer = () => {
         className="md:w-full  flex flex-col md:flex-row items-center justify-around"
         id="footer-top"
       >
-        <div id="left-side" className="md:flex flex-col gap-2 md:gap-10  md:w-[30%]items-center p-2 justify-center" >
-          <div className=" overflow-hidden mx-auto" >
+        <div
+          id="left-side"
+          className="md:flex flex-col gap-2 md:gap-10  md:w-[30%]items-center p-2 justify-center"
+        >
+          <div className=" overflow-hidden mx-auto">
             <Image
               src={image_foot}
               alt="logo"
@@ -30,14 +33,31 @@ const Footer = () => {
           </button>
 
           <div className="flex justify-evenly w-full py-4 md:py-2">
-            <Link href="/">
-              <FaLinkedin size={40}  className="hover:animate-bounce transition-all ease-in delay-300"/>
+            <Link
+              href="https://www.linkedin.com/company/atenci%C3%B3n-media07/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <FaLinkedin
+                size={40}
+                className="hover:animate-bounce transition-all ease-in delay-300"
+              />
             </Link>
-            <Link href="/">
-              <RiInstagramFill size={40}  className="hover:animate-bounce transition-all ease-in delay-75"/>
+            <Link
+              href="https://www.instagram.com/atencion_media"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <RiInstagramFill
+                size={40}
+                className="hover:animate-bounce transition-all ease-in delay-75"
+              />
             </Link>
-            <Link href="/">
-              <FaTwitter size={40}  className="hover:animate-bounce transition-all ease-in delay-75"/>
+            <Link href="/" rel="noopener noreferrer" target="_blank">
+              <FaTwitter
+                size={40}
+                className="hover:animate-bounce transition-all ease-in delay-75"
+              />
             </Link>
           </div>
         </div>
