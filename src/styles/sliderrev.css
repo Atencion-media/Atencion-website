@@ -52,10 +52,10 @@
   
   @keyframes scroll {
     0% {
-      transform: translateX(0px);
+      transform: translateX(calc(-150px * 10));
     }
     100% {
-      transform: translateX(calc(-150px * 10));
+      transform: translateX(0px);
     }
   }
   
@@ -70,11 +70,10 @@
   
     @keyframes scroll {
       0% {
-        transform: translateX(0px);
+        transform: translateX(calc(-80px * 10));
       }
       100% {
-        transform: translateX(calc(-80px * 10));
+        transform: translateX(0px);
       }
     }
   }
-  

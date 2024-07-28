@@ -2,6 +2,7 @@ import React from 'react'
 import Slider1 from './Slider'
 import SectionHeading from '@/common/layout/SectionHeading'
 import CustomSwiper from './CustomSwiper'
+import Slider2 from './Slider2'
 
 const Testimonials = () => {
   return (
@@ -10,7 +11,7 @@ const Testimonials = () => {
         <SectionHeading title='Client Testimonials'/>
         <h2 className="text-white font-bold tracking-wider text-center mt-4 text-lg">They are happy with us!</h2>
         <CustomSwiper/>
-      <Slider1/>
+      <Slider2/>
 
     </div>
   )

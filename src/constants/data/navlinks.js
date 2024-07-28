@@ -24,7 +24,7 @@ export const navlinks = [
     {
         id:4,
         label:"Case Studies",
-        path:"/case-study",
+        path:"/case-study/0",
         icon:<FaBriefcase/>
     },
     {

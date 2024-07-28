@@ -8,10 +8,13 @@ import {
   CardItem,
 } from "../../../components/ui/3d-card";
 import Reveal from "@/utils/Reveal";
+import Link from "next/link";
 
-const CaseStudyCard = ({ image, text }) => {
+const CaseStudyCard = ({ image, text , href}) => {
   return (
-    <CardContainer className="inter-var cursor-pointer">
+    <CardContainer className="inter-var cursor-pointer" >
+      <Link href={`/case-study/${href}`}>
+     
       <CardBody className="bg-black2 relative group/card  border-black/[0.1] w-auto lg:w-[25rem] h-auto rounded-xl p-6 border  ">
         <Reveal>
           <CardItem
@@ -53,6 +56,7 @@ const CaseStudyCard = ({ image, text }) => {
           </Reveal>
         </div>
       </CardBody>
+      </Link>
     </CardContainer>
   );
 };

@@ -8,7 +8,7 @@ const WhyUsCard = ({ data, ind }) => {
     <div
       className={`flex flex-col md:flex-row ${
         isEven ? "md:flex-row-reverse" : ""
-      } gap-2 items-center justify-between m-2`}
+      } gap-2 items-center justify-between m-2 mb-10`}
     >
       <div className="w-full md:w-[55%]">
         <Reveal>
@@ -23,14 +23,14 @@ const WhyUsCard = ({ data, ind }) => {
         </Reveal>
       </div>
       <div className="w-full md:w-[40%]">
-        <div className="flex-col justify-center items-center">
-          <p className="text-[2rem] text-center text-white font-bold outline-4 outline-white mb-[-15px]">
+        <div className="flex justify-center items-center">
+          {/* <p className="text-[2rem] text-center text-white font-bold outline-4 outline-white mb-[-15px]">
             {ind + 1}
-          </p>
+          </p> */}
           <Reveal>
             <Image
               width={400}
-              className="w-full object-contain rounded-2xl justify-self-start "
+              className="w-full object-contain rounded-2xl justify-self-start m-auto"
               height={400}
               src={data?.imageUrl}
               alt="img"
